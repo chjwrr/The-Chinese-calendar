@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A096D11D58798C006E6740 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A096D01D58798C006E6740 /* main.m */; };
+		18A096D41D58798C006E6740 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A096D31D58798C006E6740 /* AppDelegate.m */; };
+		18A096D71D58798C006E6740 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A096D61D58798C006E6740 /* ViewController.m */; };
+		18A096DA1D58798C006E6740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A096D81D58798C006E6740 /* Main.storyboard */; };
+		18A096DC1D58798C006E6740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A096DB1D58798C006E6740 /* Assets.xcassets */; };
+		18A096DF1D58798C006E6740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A096DD1D58798C006E6740 /* LaunchScreen.storyboard */; };
+		18A096EA1D58798C006E6740 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A096E91D58798C006E6740 /* ____Tests.m */; };
+		18A096F51D58798C006E6740 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A096F41D58798C006E6740 /* ____UITests.m */; };
+		18A097041D588EBD006E6740 /* MyCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A097031D588EBD006E6740 /* MyCalendarCell.m */; };
+		18A097071D5897AE006E6740 /* MyCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A097061D5897AE006E6740 /* MyCalendarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A096E61D58798C006E6740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A096C41D58798C006E6740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A096CB1D58798C006E6740;
+			remoteInfo = "日历测试";
+		};
+		18A096F11D58798C006E6740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A096C41D58798C006E6740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A096CB1D58798C006E6740;
+			remoteInfo = "日历测试";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A096CC1D58798C006E6740 /* 日历测试.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "日历测试.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A096D01D58798C006E6740 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A096D21D58798C006E6740 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A096D31D58798C006E6740 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A096D51D58798C006E6740 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18A096D61D58798C006E6740 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18A096D91D58798C006E6740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A096DB1D58798C006E6740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A096DE1D58798C006E6740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A096E01D58798C006E6740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A096E51D58798C006E6740 /* 日历测试Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "日历测试Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A096E91D58798C006E6740 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		18A096EB1D58798C006E6740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A096F01D58798C006E6740 /* 日历测试UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "日历测试UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A096F41D58798C006E6740 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		18A096F61D58798C006E6740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A097021D588EBD006E6740 /* MyCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCalendarCell.h; sourceTree = "<group>"; };
+		18A097031D588EBD006E6740 /* MyCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCalendarCell.m; sourceTree = "<group>"; };
+		18A097051D5897AE006E6740 /* MyCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCalendarView.h; sourceTree = "<group>"; };
+		18A097061D5897AE006E6740 /* MyCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCalendarView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A096C91D58798C006E6740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A096E21D58798C006E6740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A096ED1D58798C006E6740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A096C31D58798C006E6740 = {
+			isa = PBXGroup;
+			children = (
+				18A096CE1D58798C006E6740 /* 日历测试 */,
+				18A096E81D58798C006E6740 /* 日历测试Tests */,
+				18A096F31D58798C006E6740 /* 日历测试UITests */,
+				18A096CD1D58798C006E6740 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A096CD1D58798C006E6740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A096CC1D58798C006E6740 /* 日历测试.app */,
+				18A096E51D58798C006E6740 /* 日历测试Tests.xctest */,
+				18A096F01D58798C006E6740 /* 日历测试UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A096CE1D58798C006E6740 /* 日历测试 */ = {
+			isa = PBXGroup;
+			children = (
+				18A096D21D58798C006E6740 /* AppDelegate.h */,
+				18A096D31D58798C006E6740 /* AppDelegate.m */,
+				18A097021D588EBD006E6740 /* MyCalendarCell.h */,
+				18A097031D588EBD006E6740 /* MyCalendarCell.m */,
+				18A097051D5897AE006E6740 /* MyCalendarView.h */,
+				18A097061D5897AE006E6740 /* MyCalendarView.m */,
+				18A096D51D58798C006E6740 /* ViewController.h */,
+				18A096D61D58798C006E6740 /* ViewController.m */,
+				18A096D81D58798C006E6740 /* Main.storyboard */,
+				18A096DB1D58798C006E6740 /* Assets.xcassets */,
+				18A096DD1D58798C006E6740 /* LaunchScreen.storyboard */,
+				18A096E01D58798C006E6740 /* Info.plist */,
+				18A096CF1D58798C006E6740 /* Supporting Files */,
+			);
+			path = "日历测试";
+			sourceTree = "<group>";
+		};
+		18A096CF1D58798C006E6740 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A096D01D58798C006E6740 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A096E81D58798C006E6740 /* 日历测试Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18A096E91D58798C006E6740 /* ____Tests.m */,
+				18A096EB1D58798C006E6740 /* Info.plist */,
+			);
+			path = "日历测试Tests";
+			sourceTree = "<group>";
+		};
+		18A096F31D58798C006E6740 /* 日历测试UITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A096F41D58798C006E6740 /* ____UITests.m */,
+				18A096F61D58798C006E6740 /* Info.plist */,
+			);
+			path = "日历测试UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A096CB1D58798C006E6740 /* 日历测试 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A096F91D58798C006E6740 /* Build configuration list for PBXNativeTarget "日历测试" */;
+			buildPhases = (
+				18A096C81D58798C006E6740 /* Sources */,
+				18A096C91D58798C006E6740 /* Frameworks */,
+				18A096CA1D58798C006E6740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "日历测试";
+			productName = "日历测试";
+			productReference = 18A096CC1D58798C006E6740 /* 日历测试.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A096E41D58798C006E6740 /* 日历测试Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A096FC1D58798C006E6740 /* Build configuration list for PBXNativeTarget "日历测试Tests" */;
+			buildPhases = (
+				18A096E11D58798C006E6740 /* Sources */,
+				18A096E21D58798C006E6740 /* Frameworks */,
+				18A096E31D58798C006E6740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A096E71D58798C006E6740 /* PBXTargetDependency */,
+			);
+			name = "日历测试Tests";
+			productName = "日历测试Tests";
+			productReference = 18A096E51D58798C006E6740 /* 日历测试Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A096EF1D58798C006E6740 /* 日历测试UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A096FF1D58798C006E6740 /* Build configuration list for PBXNativeTarget "日历测试UITests" */;
+			buildPhases = (
+				18A096EC1D58798C006E6740 /* Sources */,
+				18A096ED1D58798C006E6740 /* Frameworks */,
+				18A096EE1D58798C006E6740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A096F21D58798C006E6740 /* PBXTargetDependency */,
+			);
+			name = "日历测试UITests";
+			productName = "日历测试UITests";
+			productReference = 18A096F01D58798C006E6740 /* 日历测试UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A096C41D58798C006E6740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CHJ;
+				TargetAttributes = {
+					18A096CB1D58798C006E6740 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					18A096E41D58798C006E6740 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18A096CB1D58798C006E6740;
+					};
+					18A096EF1D58798C006E6740 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18A096CB1D58798C006E6740;
+					};
+				};
+			};
+			buildConfigurationList = 18A096C71D58798C006E6740 /* Build configuration list for PBXProject "日历测试" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A096C31D58798C006E6740;
+			productRefGroup = 18A096CD1D58798C006E6740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A096CB1D58798C006E6740 /* 日历测试 */,
+				18A096E41D58798C006E6740 /* 日历测试Tests */,
+				18A096EF1D58798C006E6740 /* 日历测试UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A096CA1D58798C006E6740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A096DF1D58798C006E6740 /* LaunchScreen.storyboard in Resources */,
+				18A096DC1D58798C006E6740 /* Assets.xcassets in Resources */,
+				18A096DA1D58798C006E6740 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A096E31D58798C006E6740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A096EE1D58798C006E6740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A096C81D58798C006E6740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A096D71D58798C006E6740 /* ViewController.m in Sources */,
+				18A096D41D58798C006E6740 /* AppDelegate.m in Sources */,
+				18A097071D5897AE006E6740 /* MyCalendarView.m in Sources */,
+				18A096D11D58798C006E6740 /* main.m in Sources */,
+				18A097041D588EBD006E6740 /* MyCalendarCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A096E11D58798C006E6740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A096EA1D58798C006E6740 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A096EC1D58798C006E6740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A096F51D58798C006E6740 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A096E71D58798C006E6740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A096CB1D58798C006E6740 /* 日历测试 */;
+			targetProxy = 18A096E61D58798C006E6740 /* PBXContainerItemProxy */;
+		};
+		18A096F21D58798C006E6740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A096CB1D58798C006E6740 /* 日历测试 */;
+			targetProxy = 18A096F11D58798C006E6740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A096D81D58798C006E6740 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A096D91D58798C006E6740 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A096DD1D58798C006E6740 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A096DE1D58798C006E6740 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A096F71D58798C006E6740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18A096F81D58798C006E6740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A096FA1D58798C006E6740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "日历测试/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chj.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A096FB1D58798C006E6740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "日历测试/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chj.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18A096FD1D58798C006E6740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "日历测试Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chj.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/日历测试.app/日历测试";
+			};
+			name = Debug;
+		};
+		18A096FE1D58798C006E6740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "日历测试Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chj.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/日历测试.app/日历测试";
+			};
+			name = Release;
+		};
+		18A097001D58798C006E6740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "日历测试UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chj.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "日历测试";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18A097011D58798C006E6740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "日历测试UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chj.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "日历测试";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A096C71D58798C006E6740 /* Build configuration list for PBXProject "日历测试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A096F71D58798C006E6740 /* Debug */,
+				18A096F81D58798C006E6740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A096F91D58798C006E6740 /* Build configuration list for PBXNativeTarget "日历测试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A096FA1D58798C006E6740 /* Debug */,
+				18A096FB1D58798C006E6740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A096FC1D58798C006E6740 /* Build configuration list for PBXNativeTarget "日历测试Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A096FD1D58798C006E6740 /* Debug */,
+				18A096FE1D58798C006E6740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A096FF1D58798C006E6740 /* Build configuration list for PBXNativeTarget "日历测试UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A097001D58798C006E6740 /* Debug */,
+				18A097011D58798C006E6740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A096C41D58798C006E6740 /* Project object */;
+}
